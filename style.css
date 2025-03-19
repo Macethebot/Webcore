@@ -27,7 +27,9 @@ html, body {
     transform: scale(2);
     width: 500px
   }
-  
+  img{
+    border-radius: 8px;
+  }
   img:hover {
     animation: spin 2s linear infinite;
    }
