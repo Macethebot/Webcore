@@ -13,19 +13,30 @@ html, body {
    border-radius: 10px;
    color: rgb(11, 40, 40);
   }
+
+  h1:hover{
+    width: 600px;
+  }
   
   h2{
     font-weight:bold;
     text-align: center;
     text-shadow: 5px 5px rgb(142, 135, 209);
   }
+  h2:hover{
+    transform: scale(2);
+    width: 500px
+  }
   
+  img:hover {
+    animation: spin 2s linear infinite;
+   }
   h3{
     font-weight:bold;
     text-align: center;
     text-shadow: 5px 5px rgb(142, 135, 209);
   }
-  
+
   #othereternalthings{
     display: flex;
     background-color: rgb(232, 48, 170);
